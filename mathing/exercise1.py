@@ -2,9 +2,4 @@
 def multiplication(x, y):
     return x * y
 
-# fuctorial function
-def factorial():
-     
-
-
 
