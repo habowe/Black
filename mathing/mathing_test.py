@@ -2,6 +2,7 @@ from mathing import exercise1
 from mathing import exercise2
 from mathing import exercise3
 from mathing import exercise4
+from mathing import exercise5
 
 # testing multiplication 
 def test_multiplication():
@@ -22,8 +23,18 @@ def test_devision():
     assert exercise3.devision(5,2) == 2.5
 
 # Testing Fibonacci Sequence
-def test_fibonacci():
-    assert exercise4.fibonacci(1) == true
+#def test_fibonacci():
+#   assert exercise4.fibonacci(1) == True
+#   assert exercise4.fibonacci(6) == False
+
+#def test_fibonacci():
+#   assert exercise4.fibonacci(1) == 0
+
+def test_fib():
+    assert exercise5.fib(2) == 1
+
+def test_fib():
+    assert exercise5.fib(6) == 8
  
 
 
