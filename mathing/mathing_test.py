@@ -1,6 +1,7 @@
 from mathing import exercise1
 from mathing import exercise2
 from mathing import exercise3
+from mathing import exercise4
 
 # testing multiplication 
 def test_multiplication():
@@ -20,6 +21,9 @@ def test_factorial():
 def test_devision():
     assert exercise3.devision(5,2) == 2.5
 
-# Testing 
+# Testing Fibonacci Sequence
+def test_fibonacci():
+    assert exercise4.fibonacci(1) == true
+ 
 
 
